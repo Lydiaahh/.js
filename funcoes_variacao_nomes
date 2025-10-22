@@ -1,0 +1,14 @@
+function obtenhaNumeroDeCaracteres(nome){
+  return nome.length
+  } //retorna o número de caracteres
+  console.log(obtenhaNumeroDeCaracteres("Lydia"))
+
+  function obtenhaNomeMinusculo(nome){
+    return nome.toLowerCase()
+  } //retorna tudo minusculo
+  console.log(obtenhaNomeMinusculo("Lydia"))
+
+  function obtenhaNomeMaiusculo(nome){
+    return nome.toUpperCase()
+  } //retorna tudo maiusculo
+  console.log(obtenhaNomeMaiusculo("Lydia"))
